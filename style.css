@@ -1,0 +1,90 @@
+
+
+#butt{ 
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    background-color: bisque;
+}
+
+nav {
+    display: flex;
+    justify-content: center !important;
+}
+.container{
+    background-color: #f8f8f8;
+    margin-top: 30px;
+    padding: 20px;
+    /* width: 1000px !important; */
+}
+.quiz_details{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.question_content{
+    padding: 10px;
+}
+.answers_content{
+    background-color: #ffff;
+    padding: 20px;
+}
+.answer{
+    padding: 5px;
+
+}
+.answer input[type="radio"]:checked +label{
+    color: rgb(53, 157, 248);
+    font-weight: bold;
+
+}
+
+.left_questions{
+    display: flex;
+    background-color:#f0f8ff;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.left_questions span {
+    /* background-color: #ffff ; */
+   
+    border: solid rgb(14, 151, 32) ;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 32px;
+    margin-left: 5px;
+}
+.current{
+    
+    background:  rgb(14, 151, 32);
+
+    font-weight: bold;
+    /* border: solid  1px green  ; */
+    /* margin-bottom: 10px; */
+}
+.score{
+    background-color: #f0f8ff;
+}
+.good{
+    color: green;
+    font-weight: bold;
+}
+.not_bad{
+    color: rgb(12, 97, 129);
+    font-weight: bold;
+}
+.bad{
+    color: rgb(183, 6, 6);
+}

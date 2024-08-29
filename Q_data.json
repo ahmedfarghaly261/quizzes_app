@@ -1,0 +1,45 @@
+[
+    {
+        "title": "How do you create a function in JavaScript ?",
+        "a_1": "A) function:myFunction()",
+        "a_2": "B) function = myFunction() ",
+        "a_3": "C) function myFunction() ",
+        "a_4": "D) def myFunction() ",
+
+        "right_a": "C) function myFunction() "
+    },
+    {
+        "title": "How can you add a comment in a JavaScript?",
+        "a_1": "A) <!-- This is a comment --> ",
+        "a_2": "B) # This is a comment ",
+        "a_3": "C) /* This is a comment */",
+        "a_4": "D) // This is a comment " ,
+        "right_a": "D) // This is a comment"
+        
+    },
+    {
+        "title": " How do you write an <if> statement in JavaScript? ",
+        "a_1": " A) if i = 5  ",
+        "a_2": " B) if i == 5 then  ",
+        "a_3": " c) if i = 5 then ",
+        "a_4": " D) if (i == 5)  ",
+        "right_a": " D) if (i == 5) "
+        
+    },
+    {
+        "title": "What will the following code output? < console.log(0.1 + 0.2 == 0.3); >",
+        "a_1": " A) true  ",
+        "a_2": " B) false ",
+        "a_3": " c) undefined ",
+        "a_4": " D) NaN ",
+        "right_a": "B) false " 
+    },
+    {
+        "title": "Which event occurs when the user clicks on an HTML element?",
+        "a_1": " A) onclick ",
+        "a_2": " B) onmouseclick ",
+        "a_3": " c) onmouseover ",
+        "a_4": " D) onchange ",
+        "right_a": " A) onclick  "
+    }
+]
