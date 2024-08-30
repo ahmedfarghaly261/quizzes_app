@@ -114,7 +114,7 @@ function check_answer(r_answer, Count) {
     }
     // console.log(user_choose)
     // console.log(r_answer)
-}
+} 
 
 // handel spans function
 function handel_spans() {

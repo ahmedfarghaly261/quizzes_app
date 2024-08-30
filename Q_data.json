@@ -13,7 +13,7 @@
         "a_1": "A) <!-- This is a comment --> ",
         "a_2": "B) # This is a comment ",
         "a_3": "C) /* This is a comment */",
-        "a_4": "D) // This is a comment " ,
+        "a_4": "D) // This is a comment" ,
         "right_a": "D) // This is a comment"
         
     },
@@ -22,24 +22,24 @@
         "a_1": " A) if i = 5  ",
         "a_2": " B) if i == 5 then  ",
         "a_3": " c) if i = 5 then ",
-        "a_4": " D) if (i == 5)  ",
-        "right_a": " D) if (i == 5) "
+        "a_4": " D) if (i == 5)",
+        "right_a": " D) if (i == 5)"
         
     },
     {
         "title": "What will the following code output? < console.log(0.1 + 0.2 == 0.3); >",
         "a_1": " A) true  ",
-        "a_2": " B) false ",
+        "a_2": " B) false",
         "a_3": " c) undefined ",
         "a_4": " D) NaN ",
-        "right_a": "B) false " 
+        "right_a": " B) false" 
     },
     {
         "title": "Which event occurs when the user clicks on an HTML element?",
-        "a_1": " A) onclick ",
+        "a_1": " A) onclick",
         "a_2": " B) onmouseclick ",
         "a_3": " c) onmouseover ",
         "a_4": " D) onchange ",
-        "right_a": " A) onclick  "
+        "right_a": " A) onclick"
     }
 ]
