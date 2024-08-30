@@ -41,5 +41,13 @@
         "a_3": " c) onmouseover ",
         "a_4": " D) onchange ",
         "right_a": " A) onclick"
+    },
+    {
+        "title": "Which of the following will write the message <Hello World> in an alert box?",
+        "a_1": " A) alertBox(`Hello World`);",
+        "a_2": " B) msg(`Hello World`);",
+        "a_3": " c) alert(`Hello World`)",
+        "a_4": " D) msgBox(`Hello World`)",
+        "right_a": " c) alert(`Hello World`)"
     }
 ]

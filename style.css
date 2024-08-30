@@ -1,15 +1,23 @@
 
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+
+/* selected by ID */
 #butt{ 
     width: 100%;
     font-weight: bold;
     margin-top: 20px;
 
 }
-
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#header_icon{
+    font-size: 30px;
 }
+
+
+/* selected by class */
+
 nav {
     background-color: bisque;
 }
@@ -38,6 +46,8 @@ nav {
 .answers_content{
     background-color: #ffff;
     padding: 20px;
+    border: solid 1px;
+    border-radius: 15px;
 }
 .answer{
     padding: 5px;

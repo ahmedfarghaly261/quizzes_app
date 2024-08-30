@@ -135,12 +135,12 @@ function show_results(count) {
         question_content.remove();
         submit_button.remove();
 
-        if (rightAnswers > (count / 2) && rightAnswers < count) {
-            theResult = `<h2 class="not_bad">Not Bad!</h2> You got ${rightAnswers} out of ${count}.`;
+        if (rightAnswers >= (count / 2) &&  rightAnswers < count ) {
+            theResult = `<h2 class=" <b>not_bad 😀 </b> ">Not Bad!</h2> You got ${rightAnswers} out of ${count}.`;
         } else if (rightAnswers === count) {
-            theResult = `<h2 class="good">Excellent!</h2> You got all ${count} correct.`;
+            theResult = `<h2 class="good"> <b>Excellent  👌 </b></h2> You got all ${count} correct.`;
         } else {
-            theResult = `<h2 class="bad">Better luck next time!</h2> You got only ${rightAnswers} out of ${count}.`;
+            theResult = `<h2 class="bad"> <b>Better luck Next Time! 😐</b>  </h2> You got only ${rightAnswers} out of ${count}.`;
         }
     console.log()
         // console.log(rightAnswers)
