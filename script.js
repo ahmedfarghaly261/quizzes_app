@@ -125,6 +125,7 @@ function handel_spans() {
             span.className = "current";
         }
     });
+     
 }
 
 // show result function
@@ -136,7 +137,7 @@ function show_results(count) {
         submit_button.remove();
 
         if (rightAnswers >= (count / 2) &&  rightAnswers < count ) {
-            theResult = `<h2 class=" <b>not_bad 😀 </b> ">Not Bad!</h2> You got ${rightAnswers} out of ${count}.`;
+            theResult = `<h2 class=" <b>not_bad😀 </b> ">Not Bad!</h2> You got ${rightAnswers} out of ${count}.`;
         } else if (rightAnswers === count) {
             theResult = `<h2 class="good"> <b>Excellent  👌 </b></h2> You got all ${count} correct.`;
         } else {

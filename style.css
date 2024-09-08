@@ -98,3 +98,7 @@ nav {
 .bad{
     color: rgb(183, 6, 6);
 }
+.social{
+    background-color: #eeeeee;
+    border-radius: 20px;
+}

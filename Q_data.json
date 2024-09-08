@@ -12,7 +12,7 @@
         "title": "How can you add a comment in a JavaScript?",
         "a_1": "A) <!-- This is a comment --> ",
         "a_2": "B) # This is a comment ",
-        "a_3": "C) /* This is a comment */",
+        "a_3": "C) $ This is a comment $",
         "a_4": "D) // This is a comment" ,
         "right_a": "D) // This is a comment"
         
